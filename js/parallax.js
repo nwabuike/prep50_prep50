@@ -1,0 +1,1 @@
+(function($){"use strict";var parallax=document.querySelectorAll(".parallax_img"),speed=0.20;window.onscroll=function(){[].slice.call(parallax).forEach(function(el,i){var rect=el.getBoundingClientRect();var windowYOffset=window.pageYOffset,elBackgrounPos="0 "+(windowYOffset*speed)+"px";el.style.backgroundPosition=elBackgrounPos;});};})(jQuery);
