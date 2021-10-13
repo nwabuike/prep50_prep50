@@ -3,7 +3,7 @@ require_once("db_connection.php");
 if(!empty($_POST['user_id'])){
     $data = array();
     
-    $query = $conn->query("SELECT * FROM child WHERE id = {$_POST['user_id']}");
+    $query = $conn->query("SELECT * FROM engage WHERE id = {$_POST['user_id']}");
     
     if($query->num_rows > 0){
         $userData = $query->fetch_assoc();

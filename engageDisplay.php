@@ -134,8 +134,14 @@ include 'php/db_connection.php';
                             <input type="text" id="delivery_date" name="delivery_date" class="form-control" required>
                         </div>
                         <div class="form-group">
-                            <label>Delivery Status</label>
-                            <input type="text" id="delivery_status" name="delivery_status" class="form-control" required>
+                            <!-- <label>Delivery Status</label>
+                            <input type="text" id="delivery_status" name="delivery_status" class="form-control" required> -->
+                            <select id="delivery_status" name="delivery_status" required>
+                                <option disabled selected>Select Delivery Status</option>
+                                <option value="Pending">Pending</option>
+                                <option value="Failed">Failed</option>
+                                <option value="Delivered" >Delivered</option>
+                            </select>
                         </div>
                     </div>
                     <div class="modal-footer">

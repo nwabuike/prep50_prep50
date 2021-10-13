@@ -24,7 +24,7 @@
 </head>
 
 <body>
-  
+
 
     <div class="container mt-5 mb-5">
         <div class="row d-flex justify-content-center">
@@ -98,7 +98,7 @@
                                 </form>
                             </div>
                         </div>
-                        
+
                         <p>We will be sending shipping confirmation email when the item shipped successfully!</p>
                         <p class="font-weight-bold mb-0">Thanks for shopping with us!</p> <span>prep50 child Upbringing Team</span>
                     </div>
@@ -136,7 +136,7 @@
             // document.getElementById("id").value = user_id;
             $.ajax({
                 type: 'POST',
-                url: './php/engageGet.php',
+                url: 'php/getData.php',
                 dataType: "json",
                 data: {
                     user_id: user_id
