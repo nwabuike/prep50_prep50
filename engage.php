@@ -213,7 +213,7 @@
         <div class="container">
             <h2>Order Now @ <b style="color: #ed1c94; font-size:30px;">&#8358;27,000 only</b>.</h2>
             <span class="btm-bar"></span>
-            <div class="col-md-10 ntSubTitle block-center">
+            <div style="margin-top: 30px;" class="col-md-10 ntSubTitle block-center">
                 please fill the form below.
             </div>
             <form action="" method="POST" id="registerForm">
@@ -372,7 +372,7 @@
     <script src="js/jquery.validate.js"></script>
     <script src="js/jquery.form.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/submit_engage.js"></script>
+    <script src="js/submit_form.js"></script>
 
     <script src="js/parallax.js"></script>
     <!-- <script src="js/map.js"></script> -->
