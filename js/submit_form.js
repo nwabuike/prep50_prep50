@@ -31,7 +31,7 @@ $("#registerForm").validate({
         // console.log("====================================");
         // console.log(qs);
         // console.log("====================================");
-        window.location.href = "./upbringing_confirmation.php?id=" + qs;
+        window.location.href = "./engage_confirmation.php?id=" + qs;
       },
     });
   },
