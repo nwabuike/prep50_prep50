@@ -6,13 +6,13 @@ body {
   color: #242732;
 }
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: raleway, sans-serif;
   font-weight: 400;
+  color: #ed1c94;
 }
 img {
   border: none;
@@ -248,7 +248,7 @@ span.btm-bar-white {
   width: 200px;
   height: 78px;
   display: block;
-  background-image: url(../images/logo_child.png);
+  background-image: url(../images/logo_1.png);
   background-repeat: no-repeat;
   background-position: left top;
   text-indent: -9999px;
@@ -316,12 +316,18 @@ span.btm-bar-white {
   color: #242732;
 }
 .fixed #logo_home a {
-  background-image: url(../images/logo_child.png);
+  background-image: url(../images/logo_1.png);
   width: 200px;
   height: 70px;
 }
 .ntInnerSection {
-  margin-top: 80px;
+  margin-top: -60px;
+  /* padding-left: 0;
+  padding-right: 0;
+   position: relative;  */
+}
+.ntInnerSection1 {
+  margin-top: 70px;
   /* padding-left: 0;
   padding-right: 0;
    position: relative;  */

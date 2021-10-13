@@ -33,9 +33,9 @@
                     <div class="text-left logo p-2 px-5"> <img src="https://i.imgur.com/2zDU056.png" width="50"> </div>
                     <div class="invoice p-5">
                         <h5>Your order Confirmation!</h5> <span class="font-weight-bold d-block mt-4" id="">Hello <b id="fullname"></b> </span>
-                        <p>Please confirm your availability to receive the items here.</p>
-                        <p>If you are travelling or will not be around and cannot make plans for the delivery please come back to the website on another day.</p>
-                        <p>If you are ready to buy now</p>
+                        <p>Please confirm your availability to receive the items.</p>
+                        <p>If for any reason you will be travelling or will not be around and cannot make plans for the delivery, please come back to the website on a latter date to complete your order.</p>
+                        <p>If you are ready to buy now, please proceed to confirm and select a convenient date for the delivery</p>
                         <div class="col-12 col-md-12 col-lg-12">
                             <div class="ntPackages justify-content-center">
                                 <!-- <div class="ntPackagesSuperTitle">
@@ -78,7 +78,7 @@
                                 <h2>Confirm Order</h2>
                                 <span class="btm-bar"></span>
                                 <div class="col-md-10 ntSubTitle block-center">
-                                    <p>Please select the a convenient data for delivery below.</p>
+                                    <p>Please select a convenient date for delivery below.</p>
                                 </div>
                                 <form action="" method="" id="deliveryForm">
                                     <div class="row">

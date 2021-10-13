@@ -19,7 +19,7 @@ $("#registerForm").validate({
 
   submitHandler: function (form) {
     $.ajax({
-      url: "./php/confirm_order.php",
+      url: "./php/genera.php",
       type: form.method,
       data: $(form).serialize(),
       success: function (response) {

@@ -11,11 +11,9 @@ if ((isset($_POST['reg_name']) && $_POST['reg_name'] != '')) {
     $user_state = $conn->real_escape_string($_POST['reg_state']);
     $user_quty = $conn->real_escape_string($_POST['reg_quantity']);
     $user_date = date("M d, Y h:i a");
-    // $pass = substr(str_shuffle("0123456789ABCDGHI"), 0, 8);
-
     $pass= str_pad(mt_rand(1, 99999999), 10, '0', STR_PAD_LEFT);
     // $pass = "#"+$num;
-    $sql = "INSERT INTO child (orderId, fullname, email, contact, address, state, quantity, created_at) 
+    $sql = "INSERT INTO engage (orderId, fullname, email, contact, address, state, quantity, created_at) 
 VALUES('" . $pass . "','" . $user_name . "', '" . $user_email . "', '" . $user_phone . "', '" . $user_address . "', '" . $user_state . "','" . $user_quty . "','" . $user_date . "')";
     // echo $sql;
     if (!$result = $conn->query($sql)) {
