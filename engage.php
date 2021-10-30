@@ -389,7 +389,6 @@
             </div>
         </div>
     </footer>
-    <script data-cfasync="false" src="js/email-decode.min.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.countimator.js"></script>
