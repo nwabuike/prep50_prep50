@@ -17,8 +17,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/style-center.css" />
     <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.css" />
-
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600%7CRaleway:300,400,500,600,700,800" rel="stylesheet" />
     <!-- Facebook Pixel Code -->
     <script>
@@ -196,7 +194,7 @@
     <script src="js/confirm.js"></script>
     <!-- <script src="js/map.js"></script> -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvEEMx3XDpByNzYNn0n62Zsq_sVYPx1zY&amp;callback=myMap"></script> -->
-    <script defer src="js/beacon.min.js" data-cf-beacon='{"rayId":"691138500f370a12","version":"2021.8.1","r":1,"token":"695fc8eaaddf4c338e922e5674cfd5d2","si":10}'></script>
+   
 </body>
 
 </html>
