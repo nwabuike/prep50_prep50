@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600%7CRaleway:300,400,500,600,700,800" rel="stylesheet" />
     <!-- Facebook Pixel Code -->
-    <script>
+    <!-- <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function() {
@@ -43,7 +43,7 @@
         fbq('init', '526494864200837');
         fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=526494864200837&ev=PageView&noscript=1" /></noscript>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=526494864200837&ev=PageView&noscript=1" /></noscript> -->
     <!-- End Facebook Pixel Code -->
 </head>
 
