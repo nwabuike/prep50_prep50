@@ -11,7 +11,7 @@ $mailBody .= "Quantity: " . $user_quty. "\n";
 // $mailBody .= "WAEC & JAMB BUNDLE: " . $user_bundle_w_j . "\n";
 // $file = "files/codexworld.pdf";
 
-if (mail($toEmail, "Book Order form $user_name ", $mailBody, $mailHeaders)) {
+if (mail($toEmail, "Playbox Order form $user_name ", $mailBody, $mailHeaders)) {
     // $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .', thank you for the message. We will get back to you shortly.'));
     // die($output);
     // echo "Thank you";
