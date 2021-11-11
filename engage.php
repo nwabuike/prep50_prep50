@@ -256,9 +256,9 @@
 
                         <select name="reg_quantity" required>
                             <option disabled selected>Select Quantity</option>
-                            <option value="1" style="color: #ed1c94; font-size:20px;">1 => prep50Engage <b>&#8358;27,000</b></option>
-                            <option value="2" style="color: #ed1c94; font-size:20px;">2 => prep50Engage <b>&#8358;54,000</b></option>
-                            <option value="3" style="color: #ed1c94; font-size:20px;">3 => prep50Engage <b>&#8358;81,000</b></option>
+                            <option value="1" style="color: #ed1c94; font-size:20px;">1 => prep50 Playbox <b>&#8358;27,000</b></option>
+                            <option value="2" style="color: #ed1c94; font-size:20px;">2 => prep50 Playbox <b>&#8358;54,000</b></option>
+                            <option value="3" style="color: #ed1c94; font-size:20px;">3 => prep50 Playbox <b>&#8358;81,000</b></option>
                         </select>
                     </div>
                     <div class="col-md-6">
