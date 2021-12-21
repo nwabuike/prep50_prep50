@@ -27,11 +27,11 @@ $("#registerForm").validate({
         // console.log(response.id);
         //  $("#msgid").html("<h1>Submitting Form (External Routine)</h1>");
         //     // $("#answers").html(response);
-        var qs = response.id;
+        // var qs = response.id;
         // console.log("====================================");
         // console.log(qs);
         // console.log("====================================");
-        window.location.href = "./engage_confirmation.php?id=" + qs;
+        // window.location.href = "./engage_confirmation.php?id=" + qs;
       },
     });
   },
